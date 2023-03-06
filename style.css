@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+.directionbutton {
+ padding: 10px;
+ border: none;
+  background: #26abff;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+
+.directionbutton:hover {
+  background: #fff;
+  color: #26abff;
+  cursor: pointer;
+}
+
+
+.travelSelect {
+  position: absolute;
+  top: 11px;
+  left: 220px;
+  padding: 10px 20px;
+}
+#placeType {
+  position: absolute;
+  top: 11px;
+  padding: 10px 20px;
+  left: 335px;
+}

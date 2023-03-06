@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Jay</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-5111AS8pVuSS5U3K66w3y5JBJIHyJ_E&callback=initMap&libraries=places"></script>
+
+
+<div id="map"></div>
+<span>Radius slider: </span><input type="range" min="200" max="10000" value="5000" id="radius-slider">
+
+<select class="travelSelect" id="typetrav">
+  <option value="DRIVING">Driving</option>
+  <option value="TRANSIT">Bus</option>
+</select>
+
+<select id="placeType">
+  <option value="atm">ATM</option>
+  <option value="bakery">Bakery</option>
+  <option value="bank">Bank</option>
+  <option value="bar">Bar</option>
+  <option value="book_store">Book Store</option>
+  <option value="cafe">Cafe</option>
+  <option value="clothing_store">Clothing Store</option>
+  <option value="convenience_store">Convenience Store</option>
+  <option value="department_store">Department Store</option>
+  <option value="drugstore">Drugstore</option>
+  <option value="electronics_store">Electronics Store</option>
+  <option value="hospital">Hospital</option>
+  <option value="jewelry_store">Jewelry Store</option>
+  <option value="movie_theater">Movie Theater</option>
+  <option value="night_club">Night Club</option>
+  <option value="park">Park</option>
+  <option value="pharmacy">Pharmacy</option>
+  <option value="primary_school">Primary School</option>
+  <option value="restaurant">Restaurant</option>
+  <option value="secondary_school">Secondary School</option>
+  <option value="shoe_store">Shoe Store</option>
+  <option value="shopping_mall">Shopping Mall</option>
+  <option value="stadium">Stadium</option>
+  <option value="supermarket">Supermarket</option>
+  <option value="tourist_attraction">Tourist Attraction</option>
+  <option value="university">University</option>
+</select>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
